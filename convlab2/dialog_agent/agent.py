@@ -10,7 +10,7 @@ from convlab2.policy.rlmodule import MultiDiscretePolicy3,MultiDiscretePolicy4
 import torch
 import os
 from convlab2.policy.vector.vector_multiwoz import MultiWozVector
-root_dir = '/home/mahdin/anaconda3/envs/convlab2/code/Dialog/ConvLab_domain_prev_classification_copy/'
+root_dir = ''
 voc_file = os.path.join(root_dir, 'data/multiwoz/sys_da_voc.txt')
 voc_opp_file = os.path.join(root_dir, 'data/multiwoz/usr_da_voc.txt')
 vector = MultiWozVector(voc_file, voc_opp_file)
